@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "input_documents": [
+      "1-NEWTON’S RINGS-21-05-2025 (1).pdf"
+    ],
+    "persona": {
+      "role": "Undergraduate Physics Student",
+      "expertise": "Intermediate knowledge in wave optics and semiconductors",
+      "goal": "Prepare for semester exams with focus on derivations, examples, and applications"
+    },
+    "job_to_be_done": "Identify and prioritize example problems and formula-based derivations to revise before exams",
+    "processing_timestamp": "2025-07-28T15:03:23.004069Z"
+  },
+  "extracted_sections": [
+    {
+      "document": "1-NEWTON’S RINGS-21-05-2025 (1).pdf",
+      "page_number": 33,
+      "section_title": "Example Problem - 1",
+      "topic": "Young’s Double Slit Experiment",
+      "type": "example",
+      "importance_rank": 1
+    },
+    {
+      "document": "1-NEWTON’S RINGS-21-05-2025 (1).pdf",
+      "page_number": 34,
+      "section_title": "Example Problem - 2",
+      "topic": "Young’s Double Slit Experiment",
+      "type": "example",
+      "importance_rank": 2
+    },
+    {
+      "document": "1-NEWTON’S RINGS-21-05-2025 (1).pdf",
+      "page_number": 35,
+      "section_title": "Example Problem - 3",
+      "topic": "Young’s Double Slit Experiment",
+      "type": "example",
+      "importance_rank": 3
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "1-NEWTON’S RINGS-21-05-2025 (1).pdf",
+      "refined_text": "Example Problem - 1...",
+      "page_number": 33
+    },
+    {
+      "document": "1-NEWTON’S RINGS-21-05-2025 (1).pdf",
+      "refined_text": "Example Problem - 2...",
+      "page_number": 34
+    },
+    {
+      "document": "1-NEWTON’S RINGS-21-05-2025 (1).pdf",
+      "refined_text": "Example Problem - 3...",
+      "page_number": 35
+    }
+  ],
+  "document_outlines": {
+    "1-NEWTON’S RINGS-21-05-2025 (1).pdf": [
+      {
+        "level": "H1",
+        "text": "Module-1",
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Wave",
+        "page": 2
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 3
+      },
+      {
+        "level": "H1",
+        "text": "Form of a wave profile",
+        "page": 4
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 5
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 6
+      },
+      {
+        "level": "H1",
+        "text": "Wave Equation",
+        "page": 7
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 8
+      },
+      {
+        "level": "H2",
+        "text": "Longitudinal wave",
+        "page": 9
+      },
+      {
+        "level": "H2",
+        "text": "Transverse wave",
+        "page": 10
+      },
+      {
+        "level": "H1",
+        "text": "Interference",
+        "page": 11
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 12
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 13
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 14
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 15
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 16
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 17
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 18
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 19
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 20
+      },
+      {
+        "level": "H1",
+        "text": "Young’s Double Slit Experiment",
+        "page": 21
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 22
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 23
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 24
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 25
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 26
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 27
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 28
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 29
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 30
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 31
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 32
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 33
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 34
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 35
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 36
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 37
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 38
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 39
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 40
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 41
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 42
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 43
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 44
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 45
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 46
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 47
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 48
+      },
+      {
+        "level": "None",
+        "text": "No heading",
+        "page": 49
+      }
+    ]
+  }
+}
