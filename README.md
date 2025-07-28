@@ -1,23 +1,23 @@
-# 📘 PersonaPrep – Persona-Aligned Educational PDF Extractor
+# PersonaPrep – Persona-Aligned Educational PDF Extractor
 
 **PersonaPrep** intelligently extracts relevant example problems, derivations, and formulas from academic PDFs, aligned to a student persona’s learning goals.\
 It is designed for exam revision scenarios using lightweight NLP and document structure heuristics.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 🎯 Persona-guided section extraction
-- 🧠 Intelligent scoring: `2 × keyword_match + math_complexity`
-- 🏷 Section tagging: `example`, `derivation`, `formula`, `other`
-- 🔹 Page-to-topic mapping via heading inference
-- 📄 Summarized previews for faster reading
-- 📚 Multi-PDF batch support
-- 🔢 Structured JSON output with rankings
+-  Persona-guided section extraction
+-  Intelligent scoring: `2 × keyword_match + math_complexity`
+-  Section tagging: `example`, `derivation`, `formula`, `other`
+-  Page-to-topic mapping via heading inference
+-  Summarized previews for faster reading
+-  Multi-PDF batch support
+-  Structured JSON output with rankings
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 .
@@ -33,7 +33,7 @@ It is designed for exam revision scenarios using lightweight NLP and document st
 
 ---
 
-## 🔧 Docker Build
+##  Docker Build
 
 ```bash
 docker build --platform=linux/amd64 -t adobe-solution:harshi1b .
@@ -41,17 +41,17 @@ docker build --platform=linux/amd64 -t adobe-solution:harshi1b .
 
 ---
 
-## ▶️ Run the Extractor
+##  Run the Extractor
 
 ```bash
 docker run --rm -v "${PWD}/input:/app/input" -v "${PWD}/output:/app/output" --network none adobe-solution:harshi1b
 ```
 
-> ✅ On **Windows CMD**, replace `${PWD}` with `%cd%`
+>  On **Windows CMD**, replace `${PWD}` with `%cd%`
 
 ---
 
-## 📥 Input Format
+##  Input Format
 
 Place these in `/input/`:
 
@@ -73,7 +73,7 @@ Place these in `/input/`:
 
 ---
 
-## 📤 Output Format
+##  Output Format
 
 The file `challenge1b_output.json` contains:
 
@@ -101,7 +101,7 @@ The file `challenge1b_output.json` contains:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### 1. Persona Alignment
 
@@ -133,7 +133,7 @@ weighted_score = 2 × keyword_score + complexity_score
 
 ---
 
-## ✅ Constraints Met
+##  Constraints Met
 
 - No network access (`--network none`)
 - Fully Dockerized, reproducible run
@@ -142,7 +142,7 @@ weighted_score = 2 × keyword_score + complexity_score
 
 ---
 
-## 👨‍💼 Authors
+##  Authors
 
 - [Harshini Nadendla](https://github.com/Harshini2410)
 - [Spurthi Inturu](https://github.com/Spurthi7904)
@@ -150,7 +150,7 @@ weighted_score = 2 × keyword_score + complexity_score
 
 ---
 
-## 🏆 Acknowledgements
+##  Acknowledgements
 
 Developed for **Adobe Hackathon 2025 — Round 1B: Connecting the Dots**. Focus: student persona-based PDF content extraction for academic revision.
 
